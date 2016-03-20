@@ -1,0 +1,30 @@
+{
+  "name": "lilt.php/lilt",
+  "description": "lilt php framework",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jerkka",
+      "email": "alucas.promail@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "": "test/"
+    }
+  },
+  "require": {
+    "php": "^7.0.3",
+    "cache/cache": "^0.1.0",
+    "ext-apcu": "^5.1.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  }
+}
